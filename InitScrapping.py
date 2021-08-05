@@ -12,10 +12,23 @@
 #     language: python
 #     name: python3
 # ---
+#
+# ## VizEd Website Scrapping
+# This analysis is used to test how many information are exploitable through Web Scrapping on our StartUp Website
+# Author: Matteo Gevi
+# Property: VizEd UG
 
+<<<<<<< HEAD
 import requests
 import urllib.request
 import time
+=======
+# %% [markdown]
+## Import
+
+# %%
+import re
+>>>>>>> 095a7b437482cd82c192b78b58286994e427c192
 from bs4 import BeautifulSoup
 
 # +
