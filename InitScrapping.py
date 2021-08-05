@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # ---
 # jupyter:
 #   jupytext:
@@ -18,31 +17,10 @@
 # Author: Matteo Gevi
 # Property: VizEd UG
 
-<<<<<<< HEAD
-import requests
-import urllib.request
-import time
-=======
 # %% [markdown]
 ## Import
 
 # %%
 import re
->>>>>>> 095a7b437482cd82c192b78b58286994e427c192
 from bs4 import BeautifulSoup
-
-# +
-'''HTML Analysis'''
-
-url = 'https://www.vizedex.com/'
-response = requests.get(url)
-# If while printing response you get 200, it means that the code went through
-
-
-
-# +
-'''Text Parsing'''
-
-# Next we parse the html with BeautifulSoup so that we can work with a nicer, nested BeautifulSoup data structure.
-soup = BeautifulSoup(response.text, “html.parser”)
-soup.findAll('a')
+import pandas as pd
