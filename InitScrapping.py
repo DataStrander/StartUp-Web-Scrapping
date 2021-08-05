@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # ---
 # jupyter:
 #   jupytext:
@@ -18,6 +17,7 @@
 # Author: Matteo Gevi
 # Property: VizEd UG
 
+<<<<<<< HEAD
 import requests
 import urllib.request
 import time
@@ -42,3 +42,12 @@ soup.findAll('a')
 # -
 
 
+=======
+# %% [markdown]
+## Import
+
+# %%
+import re
+from bs4 import BeautifulSoup
+import pandas as pd
+>>>>>>> 0d6cf9365ce1ffec6782aba06d3e8561590f1e01
