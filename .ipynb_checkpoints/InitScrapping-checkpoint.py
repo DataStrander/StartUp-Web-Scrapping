@@ -37,6 +37,13 @@ response = requests.get(url)
 # Next we parse the html with BeautifulSoup so that we can work with a nicer, nested BeautifulSoup data structure.
 soup = BeautifulSoup(response.text, “html.parser”)
 soup.findAll('a')
+
+
 # -
+
+def get_subscribers(url):
+    html = requests.get(url).content
+    soup = BeautifulSoup(html)
+    return soup.select('#rawCount')[0].text
 
 
