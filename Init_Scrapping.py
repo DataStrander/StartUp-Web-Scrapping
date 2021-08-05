@@ -21,10 +21,9 @@
 #
 # Property: VizEd UG
 
-# %% [markdown]
 # ## Import
 
-# %%
+# +
 import requests
 import urllib.request
 import time
