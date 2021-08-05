@@ -21,8 +21,10 @@
 #
 # Property: VizEd UG
 
+# %% [markdown]
 # ## Import
 
+# %%
 import requests
 import urllib.request
 import time
@@ -40,7 +42,7 @@ response = requests.get(url)
 '''Text Parsing'''
 
 # Next we parse the html with BeautifulSoup so that we can work with a nicer, nested BeautifulSoup data structure.
-soup = BeautifulSoup(response.text)
+soup = BeautifulSoup(response.text, “html.parser”)
 soup.findAll('a')
 
 
