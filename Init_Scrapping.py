@@ -15,13 +15,16 @@
 
 # ## VizEd Website Scrapping
 #
-#This analysis is used to test how many information are exploitable through Web Scrapping on our StartUp Website
+# This analysis is used to test how many information are exploitable through Web Scrapping on our StartUp Website
 #
 # Author: Matteo Gevi
 #
 # Property: VizEd UG
-# %% [markdown]
 
+# %% [markdown]
+# ## Import
+
+# %%
 import requests
 import urllib.request
 import time
